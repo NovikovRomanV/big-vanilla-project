@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import student from "./02/02";
 
 const sentense = "Hello my friend!";
-
+console.log(student);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
